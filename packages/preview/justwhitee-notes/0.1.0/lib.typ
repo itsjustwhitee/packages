@@ -108,12 +108,12 @@
   subject: "",
   professor: "",
   author: "",
-  logo_subject: none,
+  logo-subject: none,
   logo_personal: none,
   year: { let y = datetime.today().year(); str(y - 1) + "/" + str(y) },
-  bento_url: "",
-  paypal_url: "",
-  contact_url: "",
+  bento-url: "",
+  paypal-url: "",
+  contact-url: "",
   lang: "en",
   body
 ) = {
@@ -170,7 +170,7 @@
   // --- TITLE PAGE ---
   page(align(center + horizon)[
     #v(18em)
-    #if logo_subject != none [ #image(logo_subject, width: 60pt) ] else[ #box() ]
+    #if logo-subject != none [ #image(logo-subject, width: 60pt) ] else[ #box() ]
     #v(3em)
     
     #text(fill: accent, font: font-mono, size: 0.9em, weight: "bold", tracking: 0.15em)[\/\/ #subject] \
@@ -212,7 +212,7 @@
       ]
       
       #v(1.5em)
-      If you want to *add* useful material or *report* errors, please do so #link(contact_url)[#underline[here]].
+      If you want to *add* useful material or *report* errors, please do so #link(contact-url)[#underline[here]].
       
       #v(1.5em)
       #line(length: 100%, stroke: 0.5pt + card-border)
@@ -222,9 +222,9 @@
         I hope this resource proves useful to you. Good study and good luck! 👾
         
         #v(1.5em)
-        If you'd like to support me with a chocolate 🍫, you can do so #link(paypal_url)[#underline[here]]. \
+        If you'd like to support me with a chocolate 🍫, you can do so #link(paypal-url)[#underline[here]]. \
         #v(1.5em)
-        #link(bento_url)[
+        #link(bento-url)[
           #box(fill: accent.lighten(85%), stroke: 1pt + accent, radius: 8pt, inset: 10pt)[
             #text(fill: accent.darken(10%), weight: "bold", font: font-sans)[Bento Profile]
           ]
@@ -263,7 +263,7 @@
         grid(
           columns: (0.1fr, 1fr, 1fr),
           align(left + bottom)[
-            #if logo_subject != none [ #image(logo_subject, width: 14pt) ] else [ #box() ]
+            #if logo-subject != none [ #image(logo-subject, width: 14pt) ] else [ #box() ]
           ],
           align(left + horizon)[
             #set text(size: 9pt, fill: text-muted, font: font-mono)
