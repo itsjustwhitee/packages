@@ -24,12 +24,12 @@ Wrap your content with the `project` function:
   subject: "CS301",
   professor: "Prof. John Smith",
   author: "Your Name",
-  logo_subject: "imgs/course-logo.png",       // optional
-  logo_personal: "imgs/my-logo.png",          // optional
+  logo-subject: "imgs/course-logo.png",       // optional
+  logo-personal: "imgs/my-logo.png",          // optional
   year: "2024/2025",                          // optional, auto-generated if omitted
-  bento_url: "https://bento.me/yourprofile",  // a page/website you would like to add (like bento, linktree, ...)
-  paypal_url: "https://paypal.me/yourname",
-  contact_url: "https://t.me/username",       // or a whatsapp/any message app link
+  bento-url: "https://bento.me/yourprofile",  // a page/website you would like to add (like bento, linktree, ...)
+  paypal-url: "https://paypal.me/yourname",
+  contact-url: "https://t.me/username",       // or a whatsapp/any message app link
   lang: "en",
 )
 
@@ -46,13 +46,13 @@ Wrap your content with the `project` function:
 | `subject` | string | ✅ | Course code or subject name |
 | `professor` | string | ✅ | Professor's name |
 | `author` | string | ✅ | Your name |
-| `logo_subject` | path | ❌ | Path to course/university logo image |
-| `logo_personal` | path | ❌ | Path to your personal logo/avatar |
+| `logo-subject` | path | ❌ | Path to course/university logo image |
+| `logo-personal` | path | ❌ | Path to your personal logo/avatar |
 | `year` | string | ❌ | Academic year (e.g. `"2024/2025"`). Auto-generated if omitted |
-| `bento_url` | string | ❌ | Your bento page URL |
-| `paypal_url` | string | ❌ | PayPal link (shown on disclaimer page) |
-| `contact_url` | string | ❌ | Link to report errors or contribute |
-| `lang` | string | ❌ | The language of the document (default is english). |
+| `bento-url` | string | ❌ | Your bento page URL |
+| `paypal-url` | string | ❌ | PayPal link (shown on disclaimer page) |
+| `contact-url` | string | ❌ | Link to report errors or contribute |
+| `lang` | string | ❌ | The language of the document (default is English). |
 
 ---
 
@@ -99,7 +99,7 @@ Quick inline markers for annotating your notes:
 #problema[This approach has a flaw.]        // ❗️ Problem: (red highlight)
 #why(title: "use threads")[Because...]     // 🤔 Why use threads? (purple highlight)
 #how(title: "it works")[Step by step...]   // 👨🏻‍🏫 How it works? (blue highlight)
-#extra[Side note or additional context.]    // Italic muted text, smaller size, margin notes or for extra clarifications
+#extra[Side note or additional context.]    // Italic muted text, smaller size, margin notes, or for extra clarifications
 ```
 
 ---
@@ -205,7 +205,7 @@ The template uses the following font stacks:
 
 ## 📁 Recommended Project Structure
 
-It is recommended to inser assets in `assets/` folder and your logo and eventually course/subject logo on `default/`.
+It is recommended to insert assets in `assets/` folder and your logo and eventually the course/subject logo on `default/`.
 
 ---
 
@@ -216,14 +216,14 @@ It is recommended to inser assets in `assets/` folder and your logo and eventual
 
 #show: project.with(
   title: "Operating Systems",
-  subject: "Master of Computer Engeneering",
+  subject: "Master of Computer Engineering",
   professor: "Prof. John Doe",
   author: "Matteo Fontolan",
-  logo_subject: "default/logo.svg",
-  logo_personal: "assets/course-logo.png",
-  bento_url: "https://itsjustwhitee.github.io/bento/",
-  paypal_url: "https://paypal.me/justwhitee",
-  contact_url: "https://github.com/itsjustwhitee/packages/issues",
+  logo-subject: "default/logo.svg",
+  logo-personal: "assets/course-logo.png",
+  bento-url: "https://itsjustwhitee.github.io/bento/",
+  paypal-url: "https://paypal.me/justwhitee",
+  contact-url: "https://github.com/itsjustwhitee/packages/issues",
   lang: "en",
 )
 
