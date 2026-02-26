@@ -1,8 +1,8 @@
 #import "@preview/justwhitee-notes:0.1.0": *
 
 #show: project.with(
-  title: "Materia",
-  subject: "Ingegneria Informatica M",
+  title: "Course Title",
+  subject: "Master in Computer Engeneering",
   professor: "Mario Rossi",
   author: "Matteo Fontolan",
   year: "2025/2026",
@@ -14,6 +14,6 @@
 )
 
 #pagebreak()
-#v(1em)
+#v(1em)a
 
 = Introduzione
