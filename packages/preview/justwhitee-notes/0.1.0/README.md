@@ -96,7 +96,7 @@ Quick inline markers for annotating your notes:
 ```typst
 #note[Pay attention to this detail.]        // 👉 Note: (yellow highlight)
 #tip[This is a useful shortcut.]            // ✅ Tip: (teal highlight)
-#problema[This approach has a flaw.]        // ❗️ Problem: (red highlight)
+#problem[This approach has a flaw.]        // ❗️ Problem: (red highlight)
 #why(title: "use threads")[Because...]     // 🤔 Why use threads? (purple highlight)
 #how(title: "it works")[Step by step...]   // 👨🏻‍🏫 How it works? (blue highlight)
 #extra[Side note or additional context.]    // Italic muted text, smaller size, margin notes, or for extra clarifications
