@@ -6,11 +6,11 @@
   professor: "Mario Rossi",
   author: "Matteo Fontolan",
   year: "2025/2026",
-  logo_personal: "default/logo.svg",
-  logo_subject: "assets/icon.jpg",
-  bento_url: "https://itsjustwhitee.github.io/bento/",
-  paypal_url: "https://www.paypal.com/paypalme/justwhitee",
-  contact_url: "https://t.me/justwhitee",
+  logo-personal: "default/logo.svg",
+  logo-subject: "assets/icon.jpg",
+  bento-url: "https://itsjustwhitee.github.io/bento/",
+  paypal-url: "https://www.paypal.com/paypalme/justwhitee",
+  contact-url: "https://t.me/justwhitee",
 )
 
 #pagebreak()
