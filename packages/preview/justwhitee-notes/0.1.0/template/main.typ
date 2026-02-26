@@ -2,7 +2,7 @@
 
 #show: project.with(
   title: "Course Title",
-  subject: "Master in Computer Engeneering",
+  subject: "Master in Computer Engineering",
   professor: "Mario Rossi",
   author: "Matteo Fontolan",
   year: "2025/2026",
