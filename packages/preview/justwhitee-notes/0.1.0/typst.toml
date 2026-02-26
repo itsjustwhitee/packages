@@ -7,9 +7,9 @@ compiler = "0.12.0"
 description = "Modern justwhitee-like template for notes."
 categories = [ "model", "text" ]
 disciplines = [ "computer-science", "engineering" ]
-license = "AGPL"
+license = "AGPL-3.0-or-later"
 
 [template]
 path = "template"
 entrypoint = "main.typ"
-thumbnail = ""
+thumbnail = "thumbnail.png"
