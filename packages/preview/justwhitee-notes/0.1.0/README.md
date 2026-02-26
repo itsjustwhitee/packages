@@ -158,7 +158,7 @@ The `fork()` system call creates a new process.
 
 ### Image Cropping
 
-Utility to crop images by hiding edges (not all sides are mandalatory):
+Utility to crop images by hiding edges (not all sides are mandatory):
 
 ```typst
 #crop(image("diagram.png"), top: 20pt, bottom: 10pt, left: 10pt, right: 50pt)
@@ -193,12 +193,13 @@ The template automatically generates:
 
 ## 🔤 Fonts
 
-The template uses the following font stacks (already in `template/fonts/` folder, install them for best results locally):
+The template uses the following font stacks:
 
 - **Monospace** (body text): `JetBrains Mono`, `Fira Code`, `Roboto Mono`, `Consolas`
 - **Sans-serif** (headings, UI): `Syne`, `Montserrat`, `Segoe UI`
 
-> If using the Typst Web App, these fonts are usually available by default.
+> If using the Typst Web App, import them in `template/fonts/` folder.\
+> Must be installed for best results locally
 
 ---
 
