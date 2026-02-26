@@ -109,7 +109,7 @@
   professor: "",
   author: "",
   logo-subject: none,
-  logo_personal: none,
+  logo-personal: none,
   year: { let y = datetime.today().year(); str(y - 1) + "/" + str(y) },
   bento-url: "",
   paypal-url: "",
@@ -185,9 +185,9 @@
     #v(3em)
     
     #text(size: 1.2em, fill: text-main, weight: "bold", "by " + author)
-    #if logo_personal != none {
+    #if logo-personal != none {
       v(0.5em)
-      image(logo_personal, width: 30pt) 
+      image(logo-personal, width: 30pt) 
     }
     #v(1fr)
     #text(fill: text-muted, font: font-mono, "// " + year)
@@ -270,7 +270,7 @@
             #title
           ],
           align(right + bottom)[
-             #if logo_personal != none {image(logo_personal, width: 14pt) }
+             #if logo-personal != none {image(logo-personal, width: 14pt) }
           ]
         )
         v(-5pt)
