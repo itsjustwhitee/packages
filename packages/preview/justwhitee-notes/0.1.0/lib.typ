@@ -18,7 +18,7 @@
 #let font-sans = ("Syne", "Montserrat", "Segoe UI", "sans-serif")
 
 // --- INLINE STYLES ---
-#let kw(it, color: accent) = strong(text(fill: color, font: font-mono, it))
+#let kw(it, color: accent) = strong(text(fill: color, font: font-mono, weight: "extrabold", it))
 
 // Hiighlight
 #let hl(it, color: accent) = highlight(
